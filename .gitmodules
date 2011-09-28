@@ -1,0 +1,18 @@
+[submodule "bundle/vim-solarized"]
+	path = bundle/vim-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-autoclose"]
+	path = bundle/vim-autoclose
+	url = https://github.com/Townk/vim-autoclose.git
+[submodule "bundle/vim-c"]
+	path = bundle/vim-c
+	url = https://github.com/vim-scripts/c.vim.git
+[submodule "bundle/vim-closetag"]
+	path = bundle/vim-closetag
+	url = https://github.com/vim-scripts/closetag.vim.git
+[submodule "bundle/vim-coffeescript"]
+	path = bundle/vim-coffeescript
+	url = https://github.com/vim-scripts/vim-coffee-script.git
+[submodule "bundle/vim-commandt"]
+	path = bundle/vim-commandt
+	url = git://git.wincent.com/command-t.git
