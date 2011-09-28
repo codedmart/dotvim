@@ -1,0 +1,5 @@
+.directory
+bundle/tmp/*
+backups/*
+bundle/backups/*
+tmp/*
