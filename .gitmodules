@@ -46,3 +46,21 @@
 [submodule "bundle/vim-jade"]
 	path = bundle/vim-jade
 	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/edsono/vim-matchit.git
+[submodule "bundle/vim-multvals"]
+	path = bundle/vim-multvals
+	url = https://github.com/vim-scripts/multvals.vim.git
+[submodule "bundle/vim-nerdcommenter"]
+	path = bundle/vim-nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "bundle/vim-nerdtree"]
+	path = bundle/vim-nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-pastie"]
+	path = bundle/vim-pastie
+	url = https://github.com/tpope/vim-pastie.git
+[submodule "bundle/vim-quickbuf"]
+	path = bundle/vim-quickbuf
+	url = https://github.com/vim-scripts/QuickBuf.git
