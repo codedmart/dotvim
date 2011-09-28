@@ -91,3 +91,15 @@
 [submodule "bundle/vim-syntastic"]
 	path = bundle/vim-syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-tabular"]
+	path = bundle/vim-tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "bundle/vim-xolox"]
+	path = bundle/vim-xolox
+	url = https://github.com/zalun/vim-xolox.git
+[submodule "bundle/vim-zencoding"]
+	path = bundle/vim-zencoding
+	url = https://github.com/mattn/zencoding-vim.git
