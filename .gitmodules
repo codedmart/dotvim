@@ -16,3 +16,12 @@
 [submodule "bundle/vim-commandt"]
 	path = bundle/vim-commandt
 	url = git://git.wincent.com/command-t.git
+[submodule "bundle/vim-conque"]
+	path = bundle/vim-conque
+	url = https://github.com/chrismetcalf/vim-conque.git
+[submodule "bundle/vim-dbext"]
+	path = bundle/vim-dbext
+	url = https://github.com/vim-scripts/dbext.vim.git
+[submodule "bundle/vim-endwise"]
+	path = bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
