@@ -1,9 +1,8 @@
-filetype off
 call pathogen#infect()
 "call pathogen#helptags()
 
 "if $COLORTERM == "gnome-terminal" 
-  "set term=rxvt-256color 
+"set term=rxvt-256color 
 "endif
 set background=dark
 "let g:solarized_termcolors=256
@@ -83,8 +82,8 @@ map <C-d> :bd<CR>
 " Visual
 set showmatch  " Show matching brackets.
 set mat=5  " Bracket blinking.
- set list " Show $ at end of line and trailing space as ~
- set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
+set list " Show $ at end of line and trailing space as ~
+set lcs=tab:\ \ ,eol:$,trail:~,extends:>,precedes:<
 set novisualbell  " No blinking .
 set noerrorbells  " No noise.
 set laststatus=2  " Always show status line.
