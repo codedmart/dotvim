@@ -46,47 +46,53 @@ hi link htmlTag              xmlTag
 hi link htmlTagName          xmlTagName
 hi link htmlEndTag           xmlEndTag
 
-hi Normal                    guifg=#E6E1DC guibg=#141414 ctermfg=254 ctermbg=234
+hi Normal                    guifg=#E6E1DC guibg=#141414 ctermfg=254 ctermbg=NONE
 hi Cursor                    guifg=#000000 ctermfg=0     guibg=#FFFFFF ctermbg=15
 hi CursorLine                guibg=#333333 guifg=NONE
 hi CursorCol                 guibg=#333333 guifg=NONE
 hi StatusLine                guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=153 cterm=bold
-hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey
-hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White
+hi StatusLineNC              guifg=#444444 guibg=#aaaaaa gui=none ctermfg=233   ctermbg=237 cterm=none
+hi VertSplit                 guifg=Black   guibg=#aabbee gui=bold ctermfg=237   ctermbg=237 cterm=none
 
-hi Comment                   guifg=#BC9458 ctermfg=179 gui=italic
-hi Constant                  guifg=#6D9CBE ctermfg=68
-hi Define                    guifg=#CC7833 ctermfg=130
-hi Error                     guifg=#FFC66D ctermfg=214 guibg=#990000 ctermbg=124
-hi Function                  guifg=#FFC66D ctermfg=214 gui=NONE cterm=NONE
-hi Identifier                guifg=#6D9CBE ctermfg=68  gui=NONE cterm=NONE
-hi Include                   guifg=#CC7833 ctermfg=130 gui=NONE cterm=NONE
-hi PreCondit                 guifg=#CC7833 ctermfg=130 gui=NONE cterm=NONE
-hi Keyword                   guifg=#CC7833 ctermfg=130 cterm=NONE
+hi Comment                   guifg=#BC9458 ctermfg=180 gui=italic
+hi Constant                  guifg=#6D9CBE ctermfg=73
+hi link Identifier Constant
+hi Define                    guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Statement                 guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE
+hi Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
+hi Function                  guifg=#FFC66D ctermfg=221 gui=NONE cterm=NONE
+hi Keyword                   guifg=#CC7833 ctermfg=173 cterm=NONE
+hi link Include              Statement
+hi link PreCondit            Statement
+
 hi LineNr                    guifg=#595959 ctermfg=243 guibg=#2b2b2b ctermbg=235
-hi Number                    guifg=#A5C261 ctermfg=107
-hi String                    guifg=#A5C261 ctermfg=107 guibg=#222222 ctermbg=233
-hi PreProc                   guifg=#E6E1DC ctermfg=255
+hi String                    guifg=#A5C261 ctermfg=107
+hi link Number String
+hi PreProc                   guifg=#E6E1DC ctermfg=103
 hi Search                    guifg=NONE    ctermfg=NONE guibg=#444444 ctermbg=235
 hi IncSearch                 guifg=White   guibg=Black ctermfg=White ctermbg=Black
-hi Statement                 guifg=#CC7833 ctermfg=130 gui=NONE cterm=NONE
 hi Title                     guifg=#FFFFFF ctermfg=15
-hi Type                      guifg=#DA4939 ctermfg=124 gui=NONE cterm=NONE
+hi Type                      guifg=#DA4939 ctermfg=167 gui=NONE cterm=NONE
 hi Visual                    guibg=#5A647E ctermbg=60
 
-hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=71
-hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
-hi Special                   guifg=#DA4939 ctermfg=124
+hi link diffAdded            String
+hi link diffRemoved          Type
+hi link diffLine             PreProc
+hi link diffSubname          Comment
 
-hi pythonBuiltin             guifg=#6D9CBE ctermfg=68 gui=NONE cterm=NONE
+hi DiffAdd                   guifg=#E6E1DC ctermfg=7 guibg=#519F50 ctermbg=59
+hi DiffDelete                guifg=#E6E1DC ctermfg=7 guibg=#660000 ctermbg=52
+hi Special                   guifg=#DA4939 ctermfg=167
+
+hi pythonBuiltin             guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 hi rubyBlockParameter        guifg=#FFFFFF ctermfg=15
-hi rubyConstant              guifg=#DA4939 ctermfg=124
+hi link rubyConstant           Type
+hi link rubyPredefinedConstant Type
 hi rubyInstanceVariable      guifg=#D0D0FF ctermfg=189
 hi rubyInterpolation         guifg=#519F50 ctermfg=107
 hi rubyLocalVariableOrMethod guifg=#D0D0FF ctermfg=189
-hi rubyPredefinedConstant    guifg=#DA4939 ctermfg=124
-hi rubyPseudoVariable        guifg=#FFC66D ctermfg=214
-hi rubyStringDelimiter       guifg=#A5C261 ctermfg=107
+hi rubyPseudoVariable        guifg=#FFC66D ctermfg=221
+hi link rubyStringDelimiter  String
 
 hi NonText                   guifg=#404040 ctermfg=8
 hi SpecialKey                guifg=#404040 ctermfg=8
@@ -96,7 +102,7 @@ hi xmlTagName                guifg=#E8BF6A ctermfg=179
 hi xmlEndTag                 guifg=#E8BF6A ctermfg=179
 
 hi mailSubject               guifg=#A5C261 ctermfg=107
-hi mailHeaderKey             guifg=#FFC66D ctermfg=214
+hi mailHeaderKey             guifg=#FFC66D ctermfg=221
 hi mailEmail                 guifg=#A5C261 ctermfg=107 gui=italic cterm=underline
 
 hi SpellBad                  guifg=#D70000 ctermfg=160 ctermbg=NONE cterm=underline

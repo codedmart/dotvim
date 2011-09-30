@@ -1,5 +1,5 @@
 " ~/.vim/bundle/sessions/inw-built-green.vim: Vim session script.
-" Created by session.vim 1.4.19 on 28 September 2011 at 13:24:30.
+" Created by session.vim 1.4.19 on 30 September 2011 at 06:53:53.
 " Open this file in Vim and run :source % to restore your session.
 
 set guioptions=aegiLt
@@ -23,12 +23,12 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +34 inwbuiltgreen/app.js
-badd +1 inwbuiltgreen/controllers/sessions.js
-badd +1 inwbuiltgreen/package.json
+badd +59 inwbuiltgreen/app.js
+badd +62 inwbuiltgreen/views/layout.jade
+badd +0 inwbuiltgreen/public/javascripts/application.js
 silent! argdel *
-set lines=63 columns=239
-edit inwbuiltgreen/app.js
+set lines=64 columns=239
+edit inwbuiltgreen/public/javascripts/application.js
 set splitbelow splitright
 set nosplitbelow
 set nosplitright
@@ -44,12 +44,12 @@ setlocal fml=1
 setlocal fdn=20
 setlocal fen
 silent! normal! zE
-let s:l = 33 - ((32 * winheight(0) + 30) / 61)
+let s:l = 1 - ((0 * winheight(0) + 31) / 62)
 if s:l < 1 | let s:l = 1 | endif
 exe s:l
 normal! zt
-33
-normal! 062l
+1
+normal! 0
 tabnext 1
 if exists('s:wipebuf')
   silent exe 'bwipe ' . s:wipebuf

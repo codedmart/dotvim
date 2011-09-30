@@ -1,17 +1,10 @@
 call pathogen#infect()
 "call pathogen#helptags()
 
-"if $COLORTERM == "gnome-terminal" 
-"set term=rxvt-256color 
-"endif
 set background=dark
 "let g:solarized_termcolors=256
-colorscheme solarized
-"colorscheme railscasts
-"color railscastsmod 
-" color vividchalk
-" color inkpot
-" let g:inkpot_black_background = 1
+"colorscheme solarized
+colorscheme railscasts
 
 filetype on  " Automatically detect file types.
 set nocp  " We don't want vi compatibility.
