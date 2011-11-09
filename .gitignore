@@ -3,3 +3,4 @@ bundle/tmp/*
 backups/*
 bundle/backups/*
 tmp/*
+bundle/sessions/*
