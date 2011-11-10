@@ -50,6 +50,8 @@ set nu  " Line numbers on
 " set nowrap  " Line wrapping off
 set wrap linebreak nolist
 set timeout ttimeoutlen=100 timeoutlen=5000 " Time to wait after ESC (default causes an annoying delay)
+set undofile
+set undodir=/tmp
 
 " Highlight search terms...
 set hlsearch
