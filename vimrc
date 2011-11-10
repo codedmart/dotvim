@@ -1,9 +1,7 @@
 call pathogen#infect()
 "call pathogen#helptags()
 
-if $COLORTERM == 'gnome-terminal'
-  set term=xterm-256color
-endif
+set term=xterm-256color
 
 set background=dark
 "let g:solarized_termcolors=256
