@@ -5,17 +5,17 @@ set term=xterm-256color
 
 set background=dark
 "let g:solarized_termcolors=256
-"colorscheme solarized
-colorscheme railscasts
+colorscheme solarized
+"colorscheme railscasts
 
 filetype on  " Automatically detect file types.
 set nocp  " We don't want vi compatibility.
 
 if &term =~ "xterm\\|rxvt\\|screen"
-  :silent !echo -ne "\033]12;white\007"
-  "let &t_SI = "\033]12;green\007"
-  "let &t_EI = "\033]12;yellow\007"
-  "autocmd VimLeave * :!echo -ne "\033]12;yellow\007"
+  :silent !echo -ne "\033]12;yellow\007"
+  let &t_SI = "\033]12;green\007"
+  let &t_EI = "\033]12;yellow\007"
+  autocmd VimLeave * :!echo -ne "\033]12;yellow\007"
 endif
 
 " alt+n or alt+p to navigate between entries in QuickFix

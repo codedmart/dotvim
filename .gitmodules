@@ -103,6 +103,3 @@
 [submodule "bundle/vim-delimitmate"]
 	path = bundle/vim-delimitmate
 	url = https://github.com/Raimondi/delimitMate.git
-[submodule "bundle/vim-supertab"]
-	path = bundle/vim-supertab
-	url = https://github.com/ervandew/supertab.git
