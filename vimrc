@@ -5,8 +5,8 @@ set term=xterm-256color
 
 set background=dark
 "let g:solarized_termcolors=256
-colorscheme solarized
-"colorscheme railscasts
+"colorscheme solarized
+colorscheme railscasts
 
 filetype on  " Automatically detect file types.
 set nocp  " We don't want vi compatibility.

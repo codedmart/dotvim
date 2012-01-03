@@ -103,3 +103,6 @@
 [submodule "bundle/vim-delimitmate"]
 	path = bundle/vim-delimitmate
 	url = https://github.com/Raimondi/delimitMate.git
+[submodule "bundle/vim-ctrlp"]
+	path = bundle/vim-ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
