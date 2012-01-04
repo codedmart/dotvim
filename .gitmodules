@@ -106,3 +106,6 @@
 [submodule "bundle/vim-ctrlp"]
 	path = bundle/vim-ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/vim-nginx"]
+	path = bundle/vim-nginx
+	url = https://github.com/jinfield/vim-nginx.git
