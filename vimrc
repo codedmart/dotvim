@@ -1,7 +1,7 @@
 call pathogen#infect()
 "call pathogen#helptags()
 
-set term=xterm-256color
+"set term=xterm-256color
 
 set background=dark
 "let g:solarized_termcolors=256
@@ -19,8 +19,8 @@ if &term =~ "xterm\\|rxvt\\|screen"
 endif
 
 " alt+n or alt+p to navigate between entries in QuickFix
-map <silent> <m-p> :cp <cr>
-map <silent> <m-n> :cn <cr>
+" map <silent> <m-p> :cp <cr>
+" map <silent> <m-n> :cn <cr>
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
@@ -37,8 +37,8 @@ let g:rails_default_file = 'Gemfile'
 syntax enable
 syntax on
 
-set cf  " Enable error files & error jumping.
-set clipboard+=unnamed  " Yanks go on clipboard instead.
+" set cf  " Enable error files & error jumping.
+" set clipboard+=unnamed  " Yanks go on clipboard instead.
 set history=1000  " Number of things to remember in history.
 set hidden
 set ignorecase 
@@ -68,13 +68,9 @@ set expandtab
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
- 
-" Cut/Copy/Paste
-map <C-c> "+y
-map <C-p> "+gP
 
 " Delete Buffer shortcut
-map <C-d> :bd<CR>
+" map <C-d> :bd<CR>
 
 " Visual
 set showmatch  " Show matching brackets.
@@ -97,42 +93,33 @@ set directory=~/.vim/bundle/tmp     " Where temporary files will go.
 let g:qb_hotkey = "<C-b>"
 " Nerd related
 map <C-x> :NERDTreeToggle<CR>
-map <C-t> :CommandT<CR>
-map <C-A-t> :CommandTFlush<CR> 
-let g:CommandTSelectPrevMap=['<C-p>', '<C-k>', '<Esc>OA', '<Up>']
-let g:CommandTSelectNextMap=['<C-n>', '<C-j>', '<Esc>OB', '<Down>']
+
+"map <C-t> :CommandT<CR>
+"map <C-A-t> :CommandTFlush<CR> 
+"let g:CommandTSelectPrevMap=['<C-p>', '<C-k>', '<Esc>OA', '<Up>']
+"let g:CommandTSelectNextMap=['<C-n>', '<C-j>', '<Esc>OB', '<Down>']
 
 let g:closetag_html_style=1 
 
 " Haskell
 " use ghc functionality for haskell files
-"au Bufenter *.hs compiler ghc
+au Bufenter *.hs compiler ghc
 
 " configure browser for haskell_doc.vim
 let g:haddock_browser = "/usr/bin/chromium"
 
 " Gist stuff
-let g:gist_clip_command = 'xclip -selection clipboard'
-let g:gist_detect_filetype = 1
-let g:github_user = "zmbmartin"
-let g:github_token = "465b5cc9ad0c07e8671182649d69915d"
+"let g:gist_clip_command = 'xclip -selection clipboard'
+"let g:gist_detect_filetype = 1
+"let g:github_user = "zmbmartin"
+"let g:github_token = "465b5cc9ad0c07e8671182649d69915d"
 
 " Bubble single lines
-nmap <C-Up> [e
-nmap <C-Down> ]e
+"nmap <C-Up> [e
+"nmap <C-Down> ]e
 " Bubble multiple lines
-vmap <C-Up> [egv
-vmap <C-Down> ]egv
+"vmap <C-Up> [egv
+"vmap <C-Down> ]egv
 
 " Gundo
 nnoremap <C-g> :GundoToggle<CR>
-
-" Easier line break cursor movement
-vmap <A-Down> gj
-vmap <A-Up> gk
-vmap <A-End> g$
-vmap <A-Home> g^
-nmap <A-Down> gj
-nmap <A-Up> gk
-nmap <A-End> g$
-nmap <A-Home> g^

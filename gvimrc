@@ -1,10 +1,11 @@
 set background=dark
-"colorscheme solarized
-colorscheme railscasts
+colorscheme solarized
+"colorscheme railscasts
 "set gfn=Melso\ LG\ M\ 10
 "set gfn=Consolas\ 11
 "set gfn=Bitstream\ Vera\ Sans\ Mono\ 10
-set gfn=Ubuntu\ Mono\ 12
+"set guifont=Ubuntu\ Mono:h16
+set guifont=Inconsolata:h16
 " remove toolbar, menubar, and scrollbar
 set guioptions-=T
 set guioptions-=m

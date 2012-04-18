@@ -4,3 +4,4 @@ backups/*
 bundle/backups/*
 tmp/*
 bundle/sessions/*
+.DS_Store
