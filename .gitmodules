@@ -10,9 +10,6 @@
 [submodule "bundle/vim-coffeescript"]
 	path = bundle/vim-coffeescript
 	url = https://github.com/vim-scripts/vim-coffee-script.git
-[submodule "bundle/vim-commandt"]
-	path = bundle/vim-commandt
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/vim-conque"]
 	path = bundle/vim-conque
 	url = https://github.com/chrismetcalf/vim-conque.git
@@ -31,9 +28,6 @@
 [submodule "bundle/vim-gist"]
 	path = bundle/vim-gist
 	url = https://github.com/mattn/gist-vim.git
-[submodule "bundle/vim-greplace"]
-	path = bundle/vim-greplace
-	url = https://github.com/vim-scripts/greplace.vim.git
 [submodule "bundle/vim-gundo"]
 	path = bundle/vim-gundo
 	url = https://github.com/sjl/gundo.vim.git
@@ -58,9 +52,6 @@
 [submodule "bundle/vim-pastie"]
 	path = bundle/vim-pastie
 	url = https://github.com/tpope/vim-pastie.git
-[submodule "bundle/vim-quickbuf"]
-	path = bundle/vim-quickbuf
-	url = https://github.com/vim-scripts/QuickBuf.git
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
@@ -112,3 +103,9 @@
 [submodule "bundle/vim-ruby"]
 	path = bundle/vim-ruby
 	url = http://github.com/vim-ruby/vim-ruby
+[submodule "bundle/vim-buffergator"]
+	path = bundle/vim-buffergator
+	url = http://github.com/jeetsukumaran/vim-buffergator
+[submodule "bundle/vim-easygrep"]
+	path = bundle/vim-easygrep
+	url = https://github.com/vim-scripts/EasyGrep.git
